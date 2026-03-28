@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Angie ❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fdf0f3; /* Fondo rosa pastel */
+            font-family: 'Poppins', sans-serif;
+            color: #4a4a4a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            background-color: #ffffff;
+            margin: 40px 20px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            color: #d86c7e;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #7a7a7a;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        /* Galería estilo Polaroid */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .polaroid {
+            background: white;
+            padding: 10px 10px 25px 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 2px;
+            transition: transform 0.3s ease;
+            max-width: 200px;
+        }
+
+        .polaroid img {
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+            display: block;
+        }
+
+        /* Inclinación de las fotos para dar toque casual */
+        .polaroid:nth-child(1) { transform: rotate(-4deg); }
+        .polaroid:nth-child(2) { transform: rotate(5deg); }
+        .polaroid:nth-child(3) { transform: rotate(-3deg); }
+        .polaroid:nth-child(4) { transform: rotate(4deg); }
+
+        .polaroid:hover {
+            transform: scale(1.05) rotate(0deg);
+            z-index: 10;
+        }
+
+        /* Sección de texto */
+        .message-section {
+            text-align: left;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            padding: 0 20px;
+        }
+
+        .reasons {
+            margin-top: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .reasons li {
+            margin-bottom: 10px;
+        }
+
+        .reasons li::before {
+            content: "❤️ ";
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #fdf0f3;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+            color: #d86c7e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>¡Te amo Angie, mi amor eterno!</h1>
+        <p class="subtitle">Un rincón especial en internet solo para la chica que robó mi corazón.</p>
+
+        <div class="gallery">
+            <div class="polaroid"><img src="IMG_20260213_135910_980.jpg" alt="Angie 1"></div>
+            <div class="polaroid"><img src="IMG_20260117_164239_253.jpg" alt="Angie 2"></div>
+            <div class="polaroid"><img src="IMG_20260317_163954_155.jpg" alt="Angie 3"></div>
+            <div class="polaroid"><img src="IMG_20260317_163952_328.jpg" alt="Angie 4"></div>
+        </div>
+
+        <div class="message-section">
+            <p><strong>Mi hermosa Angie,</strong></p>
+            <p>Cada día que paso a tu lado me doy cuenta de lo afortunado que soy. Eres mi sol en los días nublados, mi alegría constante y la paz que siempre busqué.</p>
+            <p>Amo tu sonrisa, tu estilo auténtico y, sobre todo, la manera tan única en la que me haces sentir amado. Esta pequeña página es solo un recordatorio de lo mucho que significas para mí.</p>
+            
+            <p><strong>¿Por qué mi corazón te pertenece?</strong></p>
+            <ul class="reasons">
+                <li>Por tu amabilidad infinita.</li>
+                <li>Por la forma en que iluminas cualquier lugar al que llegas.</li>
+                <li>Por cómo me haces reír hasta que me duele el estómago.</li>
+                <li>Por ser simplemente tú, perfecta a tu manera.</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            Por siempre y para siempre, tu amor.
+        </div>
+    </div>
+
+</body>
+</html>
